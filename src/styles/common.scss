@@ -1,0 +1,574 @@
+//表格
+.account-right-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: 100%;
+    width: 100%;
+}
+
+.el-select-dropdown .el-scrollbar .el-scrollbar__wrap {
+    overflow: scroll!important;
+}
+
+.mb15 {
+    margin-bottom: 15px;
+}
+
+.el-button {
+    i {
+        font-size: 15px;
+    }
+    padding: 8px 20px;
+}
+
+.el-menu-item.is-active {
+    background-color: #4884ff !important;
+}
+
+.attribute {
+    width: 400px;
+    padding: 20px 30px 20px 20px;
+    height: 100%;
+    border-left: 1px solid gainsboro;
+     ::v-deep .el-form-item__label {
+        line-height: 10px;
+    }
+}
+
+.select-option {
+    display: flex;
+    i {
+        display: inline-block;
+        line-height: 36px;
+        text-align: center;
+        font-size: 20px;
+        cursor: pointer;
+        width: 30px;
+    }
+    .add-option {
+        color: #22b573;
+    }
+    .del-option {
+        color: #f56d6d;
+    }
+    .link-option {
+        color: #e7a544;
+    }
+}
+
+.table-btn {
+    padding: 0px 5px;
+    i {
+        font-size: 18px !important;
+    }
+}
+
+.btn-detail {
+    padding: initial !important;
+    color: #4884ff !important;
+}
+
+.btn-edit {
+    color: #ffba00 !important;
+}
+
+.btn-del {
+    color: #f56c6c !important;
+}
+
+.el-input-group__append {
+    border-color: #6d9dff !important;
+    color: #fff !important;
+    background-color: #4884ff !important;
+}
+
+.el-input-group__prepend {
+    background-color: #ffffff !important;
+}
+
+.el-input-group__append {
+    color: #fff;
+    background-color: #4884ff;
+    border-color: #4884ff;
+}
+
+.el-input-group__append:hover {
+    background: #6d9dff;
+    border-color: #6d9dff;
+    color: #fff;
+}
+
+.el-dialog__header {
+    border-bottom: 1px solid #f5f5f5;
+    padding: 15px 20px;
+}
+
+.el-dialog__headerbtn {
+    top: 15px;
+    z-index: 999;
+    .el-dialog__close {
+        color: #909090;
+        font-size: 25px;
+    }
+}
+
+.el-table {
+    th {
+        // background-color: #EEF0F7 !important;
+    }
+    td {
+        padding: 8px 0;
+    }
+}
+
+.g-container {
+    width: 100%;
+    height: 100%;
+    .el-card {
+        height: 100%;
+    }
+    .el-card__body {
+        height: 100%;
+    }
+    .el-card__header {
+        padding: 8px 20px;
+    }
+}
+
+.modifyDialog {
+    .el-form-item__label {
+        width: 100%;
+        text-align: left;
+        color: #4884FF;
+    }
+    .vue-treeselect__control {
+        border: none;
+        border-radius: 0;
+        border-bottom: 1px solid #e4e7ed;
+    }
+    .el-date-editor.el-input,
+    .el-date-editor.el-input__inner {
+        width: 100% !important;
+    }
+    .apart-input,
+    .el-select,
+    .el-cascader,
+    .el-input {
+        //输入框、选择框
+        width: 100%;
+    }
+    .el-input__inner {
+        border: none;
+        outline: none;
+        width: 100%;
+        border-bottom: 1px solid #e4e7ed;
+        border-radius: 0;
+    }
+    .el-input__inner:focus {
+        box-shadow: none
+    }
+}
+
+.m-search {
+    .el-date-editor.el-input,
+    .el-date-editor.el-input__inner {
+        max-width: 200px;
+        width: auto;
+    }
+    .vue-treeselect__control,
+    .apart-input,
+    .el-cascader,
+    .el-textarea,
+    .el-input {
+        //输入框、选择框
+        max-width: 200px !important;
+    }
+    .vue-treeselect {
+        height: 36px;
+        max-width: 200px;
+    }
+    .more {
+        display: inline-block;
+        cursor: pointer;
+        margin: 0 5px;
+        padding: 0 5px;
+        font-size: 14px;
+    }
+}
+
+.roomScrollbar {
+    width: 100%;
+     ::v-deep .el-scrollbar__wrap {
+        overflow-y: hidden;
+    }
+     ::v-deep .el-scrollbar__bar.is-vertical {
+        width: 0px;
+    }
+}
+
+.rightForm {
+     ::v-deep .el-form-item__label {
+        color: #767a7f;
+    }
+     ::v-deep .el-form-item__content {
+        color: #37465B;
+        vertical-align: middle !important;
+    }
+    .el-form-item {
+        margin-bottom: 00px;
+    }
+    b {
+        color: #f56c6c;
+        padding-right: 15px;
+    }
+    .span {
+        color: #3385ff;
+    }
+}
+
+.radioUser {
+    width: 100%;
+    .radioDetail {
+        background: #f2f8fe;
+        padding: 10px;
+        margin-bottom: 10px;
+        .username {
+            color: #37465b;
+            font-size: 17px;
+            font-weight: 600;
+            vertical-align: middle;
+        }
+        .usertext {
+            color: #767a7f;
+            margin-top: 5px;
+        }
+        .el-radio {
+            width: 100%;
+        }
+    }
+    .radioDetail:last-child {
+        margin-bottom: 0px;
+    }
+}
+
+::v-deep .vue-treeselect__menu {
+    max-width: none !important;
+}
+
+.tree .el-tree-node__content {
+    position: relative;
+    z-index: 1;
+    height: 38px;
+    padding-left: 0 !important;
+}
+
+.tree .el-tree-node__expand-icon.expanded {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+
+.tree .el-icon-caret-right {
+    font-size: 12px;
+    color: #535353;
+}
+
+.tree .el-tree-node>.el-tree-node__children {
+    overflow: inherit;
+}
+
+.tree .el-tree-node__expand-icon {
+    border: 1px solid #787878;
+    margin: 0 5px 0 4px;
+}
+
+.tree .el-tree-node__content>.el-tree-node__expand-icon {
+    padding: 1px;
+    background: #fff;
+}
+
+.tree .el-tree-node__expand-icon.is-leaf {
+    // display: none;
+    padding: 2px;
+    border: none;
+    background: transparent;
+    color: transparent;
+}
+
+.tree .el-icon-caret-right:before {
+    content: "\E6D9";
+}
+
+.tree .el-tree-node__expand-icon.expanded.el-icon-caret-right:before {
+    content: "\E6D8";
+}
+
+.tree .el-tree-node {
+    position: relative;
+    // padding-left: 16px;
+}
+
+.tree .el-tree-node__children {
+    padding-left: 16px;
+}
+
+.tree .el-tree-node :last-child:before {
+    height: 38px;
+}
+
+.tree .el-tree>.el-tree-node:before {
+    border-left: none;
+}
+
+.tree-container .el-tree>.el-tree-node:after {
+    border-top: none;
+}
+
+.tree .el-tree-node:before {
+    content: "";
+    left: -4px;
+    position: absolute;
+    right: auto;
+    border-width: 1px;
+}
+
+.tree .el-tree-node:after {
+    content: "";
+    left: -4px;
+    position: absolute;
+    right: auto;
+    border-width: 1px;
+}
+
+.tree .el-tree-node:before {
+    border-left: 1px dashed #868686;
+    height: 100%;
+    top: -20px;
+    left: -4px;
+    width: 1px;
+}
+
+.tree .el-tree-node:after {
+    border-top: 1px dashed #868686;
+    height: 20px;
+    top: 18px;
+    width: 24px;
+}
+
+.show-avatar {
+    position: relative;
+    overflow: hidden;
+    &:hover {
+        .handle-wrap {
+            opacity: 1;
+        }
+    }
+    .avatar {
+        width: 100px;
+        height: 98px;
+        display: block;
+        object-fit: cover;
+    }
+    .handle-wrap {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        transition: opacity 0.3s ease-in;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.2);
+        i {
+            color: #fff;
+            width: 30px;
+            height: 30px;
+            font-size: 18px;
+            line-height: 30px;
+            text-align: center;
+        }
+    }
+}
+
+.vue-treeselect {
+    line-height: 20px;
+    font-size: 14px !important;
+}
+
+.tabs {
+    color: #767a7f;
+    border-bottom: 10px solid #f0f2f5;
+    padding: 10px 20px;
+    position: relative;
+    // height: 68px;
+    .tabitem {
+        .tabdiv {
+            display: inline-block;
+            margin-right: 20px;
+            line-height: 30px;
+        }
+        span {
+            display: inline-block;
+            margin-right: 5px;
+            width: 40px;
+            height: 18px;
+            vertical-align: middle;
+        }
+    }
+}
+
+.add-footer {
+    padding: 15px 20px;
+    text-align: right;
+    border-top: 1px solid #f0f2f5;
+    background: white;
+}
+
+.tab1 {
+    background: #b6a2df;
+}
+
+.tab2 {
+    background: #4f989d;
+}
+
+.tab3 {
+    background: #c5cbd2;
+}
+
+.bedView {
+    // padding: 15px 20px;
+    font-size: 14px;
+    overflow: hidden;
+    .louceng {
+        text-align: center;
+        border-bottom: 1px solid #dcdfe6;
+        margin: 15px 0;
+        padding: 5px;
+    }
+    .rooms {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+    .room {
+        position: relative;
+        height: 30px;
+        line-height: 30px;
+        // padding-top: 5px;
+        font-size: 15px;
+        width: 114px;
+        margin: 2px;
+        text-align: center;
+        display: inline-block;
+        cursor: pointer;
+        border: 1px solid;
+    }
+    .psns {
+        height: 30px;
+        width: 115px;
+        line-height: 30px;
+        // margin: 2px;
+        color: white;
+        position: relative;
+        cursor: pointer;
+        text-align: center;
+        font-size: 15px;
+    }
+    .bed {
+        height: 30px;
+        width: 115px;
+        margin: 2px;
+    }
+    .dispsns::after {
+        content: "";
+        width: 100%;
+        display: inline-block;
+        height: 100%;
+        position: absolute;
+        background: #fbfbfbc7;
+        left: 0;
+    }
+}
+
+.selectBox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #f0f2f5;
+    padding: 15px;
+    z-index: 999;
+}
+
+.btn-top {
+    margin-bottom: -10px;
+    position: relative;
+    height: 40px;
+    .el-button {
+        margin-right: 15px;
+        position: absolute;
+        left: 0;
+    }
+    .el-tabs__header {
+        width: calc(100% - 125px);
+        border-bottom: none;
+        left: 125px;
+    }
+}
+
+.imageBox {
+    width: 110px;
+    background: #e4e7ec;
+    text-align: center;
+    height: 145px;
+    line-height: 145px;
+    color: white;
+    font-size: 27px;
+    margin-right: 20px;
+    border-radius: 5px;
+    float: left;
+}
+
+.top-title {
+    font-weight: 600;
+    padding-bottom: 5px;
+    padding-top: 10px;
+}
+
+.treeTitle {
+    padding: 0px 20px;
+    border-bottom: 1px solid #f0f2f5;
+    line-height: 50px;
+    .side {
+        font-size: 25px;
+        vertical-align: middle;
+        cursor: pointer;
+        color: #4884FF;
+    }
+    .close {
+        font-size: 28px;
+        vertical-align: middle;
+    }
+}
+
+.bedView {
+    padding: 15px 20px;
+    position: relative;
+    overflow: auto;
+}
+
+.contract {
+    height: calc(100% - 15px);
+    display: flex;
+    border-bottom: 1px solid #e6ebf5;
+    .contractheader {
+        font-weight: 600;
+        margin-bottom: 15px;
+    }
+}
+
+.el-dialog__body {
+    padding: 20px 20px !important;
+}

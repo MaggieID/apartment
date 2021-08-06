@@ -1,0 +1,163 @@
+{
+  "id": "2626200",
+  "name": "学生管理",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "11644463",
+      "name": "床位异动",
+      "font_class": "chuangweiyidong",
+      "unicode": "e64e",
+      "unicode_decimal": 58958
+    },
+    {
+      "icon_id": "4734117",
+      "name": "床",
+      "font_class": "ic_bedroom",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "14233216",
+      "name": "床位",
+      "font_class": "chuangwei",
+      "unicode": "e68e",
+      "unicode_decimal": 59022
+    },
+    {
+      "icon_id": "23348529",
+      "name": "ic_bedroom",
+      "font_class": "ic_bedroom1",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "23348536",
+      "name": "renqun",
+      "font_class": "renqun1",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "23348586",
+      "name": "组 2571",
+      "font_class": "a-zu2571",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "5688624",
+      "name": "复制链接（线）",
+      "font_class": "fuzhilianjiexian",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    },
+    {
+      "icon_id": "8949016",
+      "name": "合并",
+      "font_class": "hebing",
+      "unicode": "e65a",
+      "unicode_decimal": 58970
+    },
+    {
+      "icon_id": "17179996",
+      "name": "合同",
+      "font_class": "hetong",
+      "unicode": "e6be",
+      "unicode_decimal": 59070
+    },
+    {
+      "icon_id": "7385204",
+      "name": "班级",
+      "font_class": "banji",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "7905654",
+      "name": "学院配置",
+      "font_class": "xueyuanpeizhi",
+      "unicode": "e672",
+      "unicode_decimal": 58994
+    },
+    {
+      "icon_id": "15411507",
+      "name": "专业",
+      "font_class": "zhuanye",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "8124839",
+      "name": "床",
+      "font_class": "chuang1",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "23332610",
+      "name": "chuang21",
+      "font_class": "chuang21",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "18176442",
+      "name": "展开",
+      "font_class": "expand-full",
+      "unicode": "ea84",
+      "unicode_decimal": 60036
+    },
+    {
+      "icon_id": "2539910",
+      "name": "招标方案",
+      "font_class": "zhaobiaofangan",
+      "unicode": "e636",
+      "unicode_decimal": 58934
+    },
+    {
+      "icon_id": "8328457",
+      "name": "实景酷-人数",
+      "font_class": "renshu",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "2366218",
+      "name": "申请调换宿",
+      "font_class": "shenqingtiaohuansu",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "11209311",
+      "name": "切换",
+      "font_class": "qiehuan",
+      "unicode": "e65b",
+      "unicode_decimal": 58971
+    },
+    {
+      "icon_id": "9974421",
+      "name": "人-多人",
+      "font_class": "ren-duoren",
+      "unicode": "e704",
+      "unicode_decimal": 59140
+    },
+    {
+      "icon_id": "521811",
+      "name": "床",
+      "font_class": "icon3",
+      "unicode": "e6a0",
+      "unicode_decimal": 59040
+    },
+    {
+      "icon_id": "36131",
+      "name": "互换",
+      "font_class": "huhuan",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    }
+  ]
+}
